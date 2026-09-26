@@ -1,0 +1,40 @@
+/* univarsal selector */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* center var */
+
+$cntr: center;
+/* full border */
+$full-border: 1px solid black;
+/* absolute position */
+$abs: absolute;
+/* ai name */
+h1 {
+  text-align: $cntr;
+}
+/* 10px margin-left */
+$tnpx: 10px;
+/* 300px width */
+$threeHndrPx: 300px;
+/* replay containner */
+#reply-contaner {
+  width: $threeHndrPx;
+  height: 300px;
+  border: $full-border;
+  margin-left: $tnpx;
+}
+
+/* chat box */
+
+#chat-box {
+  width: $threeHndrPx;
+  margin-left: $tnpx;
+}
+
+#send-btn {
+  width: 50px;
+  height: 30px;
+}
