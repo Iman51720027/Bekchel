@@ -3,7 +3,13 @@
   margin: 0;
   padding: 0;
 }
-
+/* body background color */
+$body-bg-col: hwb(120 84% 1%);
+body {
+  background-color: $body-bg-col;
+}
+/* absolute position */
+$abs: absolute;
 /* center var */
 
 $cntr: center;
@@ -30,11 +36,18 @@ $threeHndrPx: 300px;
 /* chat box */
 
 #chat-box {
-  width: $threeHndrPx;
+  width: 280px;
   margin-left: $tnpx;
+  background-color: $body-bg-col;
 }
 
 #send-btn {
   width: 50px;
   height: 30px;
+  position: $abs;
+  left: $threeHndrPx;
+  right: 1px;
+  top: 370px;
+  bottom: 2px;
+  background-color: hwb(89 49% 6%);
 }

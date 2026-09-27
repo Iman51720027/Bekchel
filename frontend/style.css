@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+/* body background color */
+body {
+  background-color: hsl(120, 88.2352941176%, 91.5%);
+}
+
+/* absolute position */
 /* center var */
 /* full border */
 /* absolute position */
@@ -24,13 +30,20 @@ h1 {
 
 /* chat box */
 #chat-box {
-  width: 300px;
+  width: 280px;
   margin-left: 10px;
+  background-color: hsl(120, 88.2352941176%, 91.5%);
 }
 
 #send-btn {
   width: 50px;
   height: 30px;
+  position: absolute;
+  left: 300px;
+  right: 1px;
+  top: 370px;
+  bottom: 2px;
+  background-color: hsl(89, 78.9473684211%, 71.5%);
 }
 
 /*# sourceMappingURL=style.css.map */
