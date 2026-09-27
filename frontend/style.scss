@@ -3,10 +3,13 @@
   margin: 0;
   padding: 0;
 }
+/* sens serif font */
+$sns-srp: sans-serif;
 /* body background color */
 $body-bg-col: hwb(120 84% 1%);
 body {
   background-color: $body-bg-col;
+  font-family: $sns-srp;
 }
 /* absolute position */
 $abs: absolute;
@@ -22,7 +25,7 @@ h1 {
   text-align: $cntr;
 }
 /* 10px margin-left */
-$tnpx: 10px;
+$tnpx: 20px;
 /* 300px width */
 $threeHndrPx: 300px;
 /* replay containner */
@@ -45,7 +48,7 @@ $threeHndrPx: 300px;
   width: 50px;
   height: 30px;
   position: $abs;
-  left: $threeHndrPx;
+  left: 310px;
   right: 1px;
   top: 370px;
   bottom: 2px;

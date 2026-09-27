@@ -4,9 +4,11 @@
   padding: 0;
 }
 
+/* sens serif font */
 /* body background color */
 body {
   background-color: hsl(120, 88.2352941176%, 91.5%);
+  font-family: sans-serif;
 }
 
 /* absolute position */
@@ -25,13 +27,13 @@ h1 {
   width: 300px;
   height: 300px;
   border: 1px solid black;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 /* chat box */
 #chat-box {
   width: 280px;
-  margin-left: 10px;
+  margin-left: 20px;
   background-color: hsl(120, 88.2352941176%, 91.5%);
 }
 
@@ -39,7 +41,7 @@ h1 {
   width: 50px;
   height: 30px;
   position: absolute;
-  left: 300px;
+  left: 310px;
   right: 1px;
   top: 370px;
   bottom: 2px;
